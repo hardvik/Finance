@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Finance" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <style name="Theme.Finance" parent="Base.Theme.Finance" />
+
+<!--    <style name="ThemeOverlay.Finance.FullscreenContainer" parent="">-->
+<!--        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>-->
+<!--        <item name="fullscreenTextColor">@color/light_blue_A200</item>-->
+<!--    </style>-->
+
+    <style name="CustomBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemBackground">@color/backgroundcolor</item>
+        <item name="itemIconTint">@color/nav_item_tint</item> <!-- Використовуємо селектор -->
+        <item name="itemTextColor">@color/nav_item_tint</item>
+        <item name="itemRippleColor">@color/ripple_color</item>
+    </style>
+</resources>

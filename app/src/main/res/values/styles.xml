@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Widget.Theme.Finance.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="CustomButtonStyle">
+        <item name="android:background">@drawable/description_background</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Колір фону для елементів -->
+        <item name="itemBackground">@color/nav_item_background</item>
+        <!-- Колір тексту та іконок -->
+    </style>
+</resources>
