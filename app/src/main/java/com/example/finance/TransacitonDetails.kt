@@ -95,7 +95,7 @@ class TransacitonDetails : Fragment() {
                         val timestamp = document.getTimestamp("timestamp")
                         val date = timestamp?.toDate() ?: Date()
                         val name = document.getString("category")
-                        val description = document.getString("description ") ?: "Відсутній"
+                        val description = document.getString("description") ?: "Відсутній"
                         val amount = document.getDouble("amount") // Читаємо як Double
                         val amountAsString = amount?.toString() ?: "0.0"
                         var type = document.getString("type")
